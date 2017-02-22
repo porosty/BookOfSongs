@@ -40,7 +40,6 @@ public class ThirdPartySDKUtil {
      * 初始化Bugly的方法
      */
     public void initBugly(Context context) {
-       
         // 获取当前包名
         packageName = context.getPackageName();
         // 获取当前进程名
