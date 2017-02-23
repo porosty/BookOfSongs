@@ -3,11 +3,9 @@ package com.crown.bookofsongs.utils;
 
 import android.content.Context;
 import android.text.TextUtils;
-
 import com.crown.bookofsongs.config.Config;
 import com.tencent.bugly.Bugly;
 import com.tencent.bugly.crashreport.CrashReport;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

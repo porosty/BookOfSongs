@@ -28,6 +28,10 @@
         <activity
             android:name="com.tencent.bugly.beta.ui.BetaActivity"
             android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".password.GraphicLockActivity"
+            android:screenOrientation="portrait" />
+
 
         <provider
             android:name="android.support.v4.content.FileProvider"

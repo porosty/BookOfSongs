@@ -1,11 +1,13 @@
 package com.crown.bookofsongs.main.activity;
 
+import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 import com.crown.bookofsongs.R;
 import com.crown.bookofsongs.base.activity.BaseActivity;
+import com.crown.bookofsongs.password.GraphicLockActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -59,6 +61,7 @@ public class MainActivity extends BaseActivity {
         switch (view.getId()) {
             case R.id.bt_button:
                 Toast.makeText(this, "测试热更新" + crash.length(), Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this, GraphicLockActivity.class));
                 break;
         }
     }
